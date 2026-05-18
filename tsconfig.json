@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "skipLibCheck": true,
+    "strict": true,
+    "stripInternal": true,
+    "target": "ES2022",
+    "verbatimModuleSyntax": true,
+  }
+}

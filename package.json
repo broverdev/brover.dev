@@ -1,0 +1,25 @@
+{
+  "private": "true",
+  "homepage": "https://brover.dev/",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "astro dev",
+    "test": "npm run test:astro && npm run test:size",
+    "test:astro": "astro check",
+    "test:size": "astro build && size-limit",
+    "build": "astro build"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "astro": "^6.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@size-limit/file": "^12.1.0",
+    "size-limit": "^12.1.0",
+    "typescript": "^6.0.3"
+  }
+}
